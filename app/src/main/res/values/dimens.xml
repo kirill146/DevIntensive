@@ -2,4 +2,62 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--sizes-->
+    <dimen name="size_small_24">24dp</dimen>
+    <dimen name="size_medium_56">56dp</dimen>
+    <dimen name="size_large_72">72dp</dimen>
+
+    <!--spaces-->
+    <dimen name="spacing_small_8">8dp</dimen>
+    <dimen name="spacing_normal_16">16dp</dimen>
+    <dimen name="spacing_medial_24">24dp</dimen>
+    <dimen name="spacing_medium_32">32dp</dimen>
+    <dimen name="spacing_large_56">56dp</dimen>
+    <dimen name="spacing_largest_72">72dp</dimen>
+
+    <!--Keylines and margins-->
+    <dimen name="screen_edge_left_margin">16dp</dimen>
+    <dimen name="screen_edge_right_margin">16dp</dimen>
+    <dimen name="content_associated_with_an_icon_or_avatar_left_margin">72dp</dimen>
+    <dimen name="content_left_margin_from_screen_edge">72dp</dimen>
+    <dimen name="horizontal_margins_on_mobile">16dp</dimen>
+    <dimen name="right_side_icons_align_from_the_right_edge">32dp</dimen>
+
+    <dimen name="tablet_screen_edge_left_margin">24dp</dimen>
+    <dimen name="tablet_screen_edge_right_margin">24dp</dimen>
+    <dimen name="tablet_content_left_margin_from_screen_edge">80dp</dimen>
+    <dimen name="tablet_card_left_padding">24dp</dimen>
+    <dimen name="tablet_card_right_padding">24dp</dimen>
+    <dimen name="tablet_card_content_left_padding">104dp</dimen>
+    <dimen name="tablet_icons_vertical_center_distance_from_screen_edge">52dp</dimen>
+    <dimen name="tablet_nav_item_left_padding_from_screen_edge">104dp</dimen>
+    <dimen name="tablet_card_nav_item_left_padding">96dp</dimen>
+    <dimen name="tablet_card_left_padding_on_list_with_detail_view">32dp</dimen>
+
+    <!--Vertical spacing-->
+    <dimen name="status_bar">24dp</dimen>
+    <dimen name="toolbar">56dp</dimen>
+    <dimen name="subtitle">48dp</dimen>
+    <dimen name="title">72dp</dimen>
+    <dimen name="list_item">72dp</dimen>
+    <dimen name="account_menu">72dp</dimen>
+    <dimen name="space_between_content_areas">8dp</dimen>
+
+    <dimen name="tablet_status_bar">24dp</dimen>
+    <dimen name="tablet_toolbar">64dp</dimen>
+    <dimen name="tablet_space_above_list">24dp</dimen>
+    <dimen name="tablet_list_item">64dp</dimen>
+    <dimen name="tablet_subtitle">48dp</dimen>
+    <dimen name="tablet_list_item_on_list_with_detail_view">48dp</dimen>
+    <dimen name="tablet_slider">48dp</dimen>
+    <dimen name="tablet_space_between_content_areas">8dp</dimen>
+    <dimen name="tablet_card_list_item">72dp</dimen>
+
+    <!--Touch target size-->
+    <dimen name="avatar">40dp</dimen>
+    <dimen name="icon">24dp</dimen>
+    <dimen name="touch_target_on_both">48dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_touch_target_height">48dp</dimen>
 </resources>
