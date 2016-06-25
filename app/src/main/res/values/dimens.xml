@@ -66,4 +66,5 @@
     <dimen name="user_info_height">112dp</dimen>
     <dimen name="user_info_font_size_of_number">20sp</dimen>
     <dimen name="user_info_font_size">10sp</dimen>
+    <dimen name="user_info_separating_line_size">1dp</dimen>
 </resources>

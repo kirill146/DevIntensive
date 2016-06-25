@@ -4,4 +4,16 @@
     <string name="email">kirill-112.1998@mail.ru</string>
     <string name="github_repo">github.com/kirill146/DevIntensive</string>
     <string name="vk_profile">vk.com/id42362912</string>
+    <string name="rating">Рейтинг</string>
+    <string name="amount_of_code_strings">Написано строк кода</string>
+    <string name="projects">Проектов</string>
+    <string name="phone_hint">Мобильный</string>
+    <string name="email_hint">E-mail</string>
+    <string name="vk_profile_hint">Профиль в VK</string>
+    <string name="github_repo_hint">Репозиторий</string>
+    <string name="about_me_hint">О себе</string>
+    <string name="about_me">Не в себе</string>
+    <string name="rating_number">5</string>
+    <string name="amount_of_code_strings_number">25000</string>
+    <string name="projects_number">5</string>
 </resources>
