@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Козлов Кирилл</string>
+    <string name="phone">+7 (922) 323-47-60</string>
+    <string name="email">kirill-112.1998@mail.ru</string>
+    <string name="github_repo">github.com/kirill146/DevIntensive</string>
+    <string name="vk_profile">vk.com/id42362912</string>
 </resources>
