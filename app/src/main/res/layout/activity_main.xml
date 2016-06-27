@@ -1,16 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context=".ui.activities.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--User info-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/user_info_height"
+                android:background="@color/grey"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/spacing_average_28"
+                android:paddingTop="@dimen/spacing_average_28">
+
+                <LinearLayout
+                    style="@style/user_info_module"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/user_info_text.number"
+                        android:text="@string/rating_number"/>
+                    <TextView
+                        style="@style/user_info_text.title"
+                        android:text="@string/rating"/>
+                </LinearLayout>
+
+                <View style="@style/user_info_separating_line"/>
+
+                <LinearLayout
+                    style="@style/user_info_module"
+                    android:layout_weight="2">
+                    <TextView
+                        style="@style/user_info_text.number"
+                        android:text="@string/amount_of_code_strings_number"/>
+                    <TextView
+                        style="@style/user_info_text.title"
+                        android:text="@string/amount_of_code_strings" />
+                </LinearLayout>
+
+                <View style="@style/user_info_separating_line"/>
+
+                <LinearLayout
+                    style="@style/user_info_module"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/user_info_text.number"
+                        android:text="@string/projects_number"/>
+                    <TextView
+                        style="@style/user_info_text.title"
+                        android:text="@string/projects" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--List items-->
+            <!--Mobile phone-->
+            <LinearLayout style="@style/list_item">
+                <ImageView
+                    style="@style/icon.left"
+                    android:src="@drawable/ic_call_black_24dp" />
+
+                <LinearLayout style="@style/list_item_content">
+                    <android.support.design.widget.TextInputLayout style="@style/text_input_layout">
+                        <EditText
+                            style="@style/list_item_et"
+                            android:id="@+id/phone_et"
+                            android:hint="@string/phone_hint"
+                            android:inputType="phone"
+                            android:text="@string/phone" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/icon.right"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp" />
+            </LinearLayout>
+
+            <View style="@style/separating_line" />
+
+            <!--E-mail-->
+            <LinearLayout style="@style/list_item">
+                <ImageView
+                    style="@style/icon.left"
+                    android:src="@drawable/ic_mail_black" />
+
+                <LinearLayout style="@style/list_item_content">
+                    <android.support.design.widget.TextInputLayout style="@style/text_input_layout">
+                        <EditText
+                            style="@style/list_item_et"
+                            android:id="@+id/email_et"
+                            android:hint="@string/email_hint"
+                            android:inputType="textEmailAddress"
+                            android:text="@string/email" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/icon.right"
+                    android:src="@drawable/ic_send_black_24dp" />
+            </LinearLayout>
+
+            <View style="@style/separating_line" />
+
+            <!--VK-->
+            <LinearLayout style="@style/list_item">
+                <ImageView
+                    style="@style/icon.left"
+                    android:src="@drawable/ic_vk" />
+
+                <LinearLayout style="@style/list_item_content">
+                    <android.support.design.widget.TextInputLayout style="@style/text_input_layout">
+                        <EditText
+                            style="@style/list_item_et"
+                            android:id="@+id/vk_et"
+                            android:hint="@string/vk_profile_hint"
+                            android:text="@string/vk_profile" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/icon.right"
+                    android:src="@drawable/ic_remove_red_eye_black_24dp" />
+            </LinearLayout>
+
+            <View style="@style/separating_line" />
+
+            <!--Github-->
+            <LinearLayout style="@style/list_item">
+                <ImageView
+                    style="@style/icon.left"
+                    android:src="@drawable/ic_github" />
+
+                <LinearLayout style="@style/list_item_content">
+                    <android.support.design.widget.TextInputLayout style="@style/text_input_layout">
+                        <EditText
+                            style="@style/list_item_et"
+                            android:id="@+id/github_et"
+                            android:hint="@string/github_repo_hint"
+                            android:text="@string/github_repo" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/icon.right"
+                    android:src="@drawable/ic_remove_red_eye_black_24dp" />
+            </LinearLayout>
+
+            <View style="@style/separating_line" />
+
+            <!--About me-->
+            <LinearLayout style="@style/list_item">
+                <ImageView
+                    style="@style/icon.left"
+                    android:src="@drawable/ic_account_circle_black_24dp" />
+
+                <LinearLayout style="@style/list_item_content">
+                    <android.support.design.widget.TextInputLayout style="@style/text_input_layout">
+                        <EditText
+                            style="@style/list_item_et"
+                            android:id="@+id/about_me_et"
+                            android:hint="@string/about_me_hint"
+                            android:text="@string/about_me" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
