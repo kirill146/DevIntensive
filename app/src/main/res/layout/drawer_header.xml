@@ -11,6 +11,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="@dimen/spacing_normal_16"
+        android:src="@drawable/user_photo_small"
         android:background="@color/color_accent"/>
 
     <LinearLayout
