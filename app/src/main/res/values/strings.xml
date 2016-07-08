@@ -12,8 +12,19 @@
     <string name="vk_profile_hint">Профиль в VK</string>
     <string name="github_repo_hint">Репозиторий</string>
     <string name="about_me_hint">О себе</string>
-    <string name="about_me">Не в себе</string>
+    <string name="about_me">1Не в себе\n1\n2\n3\n4\n5</string>
     <string name="rating_number">5</string>
     <string name="amount_of_code_strings_number">25000</string>
     <string name="projects_number">5</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.gallery">Загрузить из галлереи</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile_dialog_title">Изменить фотографию профиля</string>
+    <string name="user_profile.choose.message">Выберете фото</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="login_button">ВОЙТИ</string>
+    <string name="password_hint">Пароль</string>
+    <string name="mail_hint">E-mail</string>
+    <string name="login_title">ВОЙТИ</string>
 </resources>
